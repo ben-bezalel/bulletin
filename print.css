@@ -1,0 +1,17 @@
+@page {
+	size:29.7cm 21cm;
+	margin:45mm 30mm 45mm 30mm;
+}
+
+/* We want to make a CSS layout which puts everything on an A4 page in two columns */
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	content: "";
+	display:table;
+	clear:both;
+}
