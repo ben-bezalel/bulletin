@@ -1,0 +1,43 @@
+@page {
+	size:29.7cm 21cm;
+	margin:45mm 30mm 45mm 30mm;
+}
+
+/* We want to make a CSS layout which puts everything on an A4 page in two columns */
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	content: "";
+	display:table;
+	clear:both;
+}
+
+.header {
+	background-color: #4b6592;
+}
+
+img {
+	width: 90%;
+	align: center;
+}
+
+body {
+	font-family: arial;
+	font-size 20px;
+}
+
+h1 {
+	color: #4b6592;
+}
+
+h2 {
+	color: #4b6592;
+}
+
+h3 {
+	color: #4b6592
+}

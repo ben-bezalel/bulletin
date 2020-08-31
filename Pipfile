@@ -9,6 +9,7 @@ verify_ssl = true
 jinja2 = "*"
 pdfkit = "*"
 markdown2 = "*"
+pyinstaller = "*"
 
 [requires]
 python_version = "3.7"
