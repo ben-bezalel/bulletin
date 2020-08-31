@@ -1,8 +1,7 @@
-#we need a title block, then a page with two columns, then a single page column
-#two A5 pages
-
-#reference css
-
+<!--we need a title block, then a page with two columns, then a single page column
+two A5 pages
+reference css
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,17 @@
 <body>
  <div class="row">
   <div class="column">
-  	{{ first }}
+    <div class="header">
+      <img src="whitetransparent.png">
+    </div>
+	<div class="row">
+	 <div class="column">
+	 {{ first }}
+	 </div>
+	 <div class="column">
+	 {{ third }}
+	 </div>
+	</div>
   </div>
   <div class="column">
   	{{ second }}
